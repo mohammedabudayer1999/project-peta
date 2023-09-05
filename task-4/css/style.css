@@ -1,0 +1,121 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;600&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto Slab', serif;
+}
+header {
+    margin: 0 auto;
+    width: 85%;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    /*flex-direction: row-reverse;*/
+    
+  }
+  nav .hero img{
+    width: 100%;
+    border-radius: 5px;
+    
+  }
+
+  ul{
+    list-style: none;
+ 
+  }
+  ul li {
+    display: inline-block;
+    margin: 0 23px;
+  }
+
+ ul li  a {
+    text-decoration: none;
+    color: black;
+  }
+  .no{
+    display: inline-block;
+  }
+
+  .login {
+    margin: 0 21px;
+    text-decoration: none;
+    color:#fff;
+    width: 120px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 29px;
+    display: inline-block;
+    margin:0 0 10px;
+
+    background:rgb(49, 137, 93);
+  }
+  .join{
+        width: 120px;
+        height: 45px;
+        line-height: 45px;
+        text-align: center;
+        border-radius: 29px;
+        background: #cdcccc;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        transition: all .8s ease;
+        display: inline-block;
+  }
+  .join:hover{
+    background: #e30f0f;
+    color: aliceblue;
+
+  }
+  main {
+    padding: 42px 0;
+  }
+  .content-wraper {
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+  }
+  .class {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+
+  }
+  .card1 {
+    display: flex;
+    border: 1px solid #eee;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    width: 24%;
+   /* overflow: hidden;*/
+    border-radius:5px;
+      }
+  .image {
+    width: 60%;
+  }
+  img{
+    width: 100%;
+  }
+  
+  .det {
+    font-size: 11px;
+  }
+

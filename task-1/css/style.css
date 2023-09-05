@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/varda-wood-stain-outdoor-use-colorless__0912015_pe617613_s5.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+}
+
+.div-all {
+    background-color: #fff;
+    margin: 43px auto;
+    width: 40%;
+    border-radius: 4px;
+}
+
+.form {
+    text-align: center;
+    padding: 20px;
+
+
+}
+h1{
+    text-shadow: 2px 2px #a7a1a1;
+}
+
+.input {
+    width: 70%;
+    margin: 0 auto;
+  }
+input {
+    outline: none;
+    width: 100%;
+    margin-bottom: 20px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    padding-left: 19px;
+
+}
+input::placeholder{
+    color: #393939;
+    font-size: 13px;
+}
+
+.create {
+    width: 66%;
+    background: #000;
+    height: 40px;
+    padding: 11px;
+    margin: 0 auto;
+    border-radius: 5px;
+    
+}
+
+.create a {
+    border-radius: 4px;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.pa {
+    padding-top: 14px;
+  }
+  p {
+    color: #c5c5c5;
+}
+
+p a {
+    color: #000
+}
