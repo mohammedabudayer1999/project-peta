@@ -56,14 +56,12 @@ body {
 
 .social a {
   background: #4965ff;
-  padding: 5px 10px;
+  width: 36px;
   border-radius: 35px;
   color: #fff;
-}
-
-.facebook {
-  padding: 5px 12px !important;
-
+  text-align: center;
+  height: 36px;
+  line-height: 36px;
 }
 
 .hr {
@@ -139,7 +137,9 @@ a {
   .part1 {
     display: flex;
     flex-direction: column;
+    gap: 15px;
   }
+  
 
   .images {
     width: 100%;
